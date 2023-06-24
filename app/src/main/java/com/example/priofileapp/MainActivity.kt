@@ -17,6 +17,7 @@ class MainActivity : AppCompatActivity() {
     private lateinit var editRegion : EditText
     private lateinit var btnSubmit : Button
 
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
