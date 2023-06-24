@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/tv_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="tanushree_077"
+        android:textColor="@color/Dark_Blue"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/ProfilePic"
+        android:layout_width="132dp"
+        android:layout_height="121dp"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:src="@drawable/_profile_pic" />
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_gravity="left"
+        android:layout_marginTop="16dp"
+        android:text="Name : Tanushree Dutta"
+        android:textColor="@color/Dark_Blue"
+        android:textSize="20sp" />
+
+
+    <TextView
+        android:id="@+id/tv_DOB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginTop="16dp"
+        android:text="Date Of Birth : 11|03|2004"
+        android:textColor="@color/Dark_Blue"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp">
+
+        <TextView
+            android:id="@+id/tv_Age"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:text="Age : 19"
+            android:textColor="@color/Dark_Blue"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tv_Gender"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:text="Gender : Female"
+            android:textColor="@color/Dark_Blue"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_Phno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginTop="16dp"
+        android:text="Contact Number : 7044533282"
+        android:textColor="@color/Dark_Blue"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tv_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginTop="16dp"
+        android:text="Email : tanushreedutta298@gmail.com"
+        android:textColor="@color/Dark_Blue"
+        android:textSize="20sp" />
+
+</LinearLayout>
