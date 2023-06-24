@@ -33,7 +33,7 @@ class Profile_Page : AppCompatActivity() {
         val age = intent.getStringExtra("Age")
         val gender = intent.getStringExtra("Gender")
         val phno = intent.getStringExtra("Phno")
-        val email = intent.getStringExtra("email")
+        val email = intent.getStringExtra("Email")
 
         textUserName.text = username
         textName.text = "Name : "+name
